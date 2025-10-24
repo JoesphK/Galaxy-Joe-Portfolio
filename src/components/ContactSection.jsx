@@ -106,7 +106,7 @@ export const ContactSection = () => {
             onSubmit={handleSubmit}
           >
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
-
+{/* I want to comment anything related to the form */}
             <form className="space-y-6">
               <div>
                 <label
@@ -122,7 +122,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="John Doe"
+                  placeholder="Form doesn't work. Use Emails "
                 />
               </div>
 
@@ -140,7 +140,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="John-doe@gmail.com"
+                  placeholder="Use-The-Email@gmail.com"
                 />
               </div>
 
@@ -157,7 +157,7 @@ export const ContactSection = () => {
                   name="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="Please use the email. This form doesn't work at this time."
                 />
               </div>
 
