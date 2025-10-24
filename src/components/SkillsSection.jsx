@@ -2,29 +2,36 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+  // Cloud
+  { name: "AWS EKS", level: 95, category: "Cloud" },
+  { name: "AWS CloudWatch", level: 90, category: "Cloud" },
+  { name: "AWS ALB", level: 90, category: "Cloud" },
+  { name: "AWS CloudFront", level: 85, category: "Cloud" },
+  { name: "AWS Global accelerator", level: 90, category: "Cloud" },
+  { name: "AWS Security Hub", level: 80, category: "Cloud" },
+  { name: "AWS RDS", level: 70, category: "Cloud" },
+  { name: "AWS Disaster recovery", level: 95, category: "Cloud" },
+  { name: "AWS Elastic Beanstalk", level: 90, category: "Cloud" },
 
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+
+  // OS and langs
+  { name: "Linux", level: 85, category: "OS and languages" },
+  { name: "Windows", level: 90, category: "OS and languages" },
+  { name: "Python", level: 90, category: "OS and languages" },
+  { name: "SQL", level: 65, category: "OS and languages" },
+  { name: "Bash & Powershell", level: 80, category: "OS and languages" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "GitHub/ GitActions", level: 90, category: "tools" },
+  { name: "Docker", level: 85, category: "tools" },
+  { name: "ArgoCD", level: 70, category: "tools" },
+  { name: "K8s", level: 75, category: "tools" },
+  { name: "Prometheus", level: 70, category: "tools" },
+  { name: "TerraForm", level: 70, category: "tools" },
+
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "Cloud", "OS and languages", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

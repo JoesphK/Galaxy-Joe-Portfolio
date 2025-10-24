@@ -6,26 +6,25 @@ export const AboutSection = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary"> Me</span>
+          Who am<span className="text-primary"> I?</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate DevOps and cloud engineer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              A junior DevOps engineer with over a year of experience.
+              I specialize in creating cloud infrastructure in AWS and deploying solutions using current day technologies. 
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I am someone who enjoys making life easier by creating automation solutions.
+              Whether that is infrastructure as code, automatic deployments or scripts.
+              I am also someone who always keeps up with the up and coming technologies and
+              use it to create even more effecient solutions to current day problems.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,8 +34,9 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/drive/folders/1OogiDqzBMaUMCk0RvtKGUOD1MwbS85wu?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                target="_blank"
               >
                 Download CV
               </a>
@@ -50,10 +50,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> DevOps engineer</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Automating system deployments and enhancing monitoring using
+                    modern technologies.
                   </p>
                 </div>
               </div>
@@ -64,10 +64,11 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Cloud engineer</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Create and deploy infrastructure on cloud environments like AWS,
+                    as well as saving the infrastructure as a code to ensure ease of creation.
+                    
                   </p>
                 </div>
               </div>
@@ -79,10 +80,11 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Software engineer</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Capable of creating custom solutions using python and automate
+                    monotonous processes using scripts and tools.
+                    
                   </p>
                 </div>
               </div>

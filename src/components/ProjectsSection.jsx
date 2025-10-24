@@ -3,32 +3,42 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Monitoring application deployment using ArgoCD",
+    description: "Simplify deploying an open source application using K8s, EKS and ArgoCD.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["EKS", "Kubernetes", "ArgoCD"],
+    demoUrl: "https://github.com/JoesphK/Dependency-Track-ArgoCD-edition",
+    githubUrl: "https://github.com/JoesphK/Dependency-Track-ArgoCD-edition",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "AWS infrastructure with terraform",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Deploy your AWS cloud infrastructure and save it as code. Supports modules like EC2 and ASG.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["AWS", "Terraform"],
+    demoUrl: "https://github.com/JoesphK/AWS-infra-by-Terraform",
+    githubUrl: "https://github.com/JoesphK/AWS-infra-by-Terraform",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Application migration to AWS",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Migration of an application from Azure to AWS while ensuring reselience, monitoring and high availability.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["AWS RDS", "AWS cloudwatch", "AWS ALB"],
+    demoUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7364988418679885826/",
+    githubUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7364988418679885826/",
+  },
+    {
+    id: 4,
+    title: "Ephemeral test environment deployer",
+    description:
+      "With a click of a button, your project will be deployed as a container on a AWS machine.",
+    image: "/projects/project4.png",
+    tags: ["Ansible", "GitHub Actions", "AWS ECR", "AWS SSM"],
+    demoUrl: "https://github.com/JoesphK/Container-DT-Backend",
+    githubUrl: "https://github.com/JoesphK/Container-DT-Backend",
   },
 ];
 
@@ -42,8 +52,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. Each project was designed to be scalable, resilent and
+          automated.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +110,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/JoesphK"
           >
             Check My Github <ArrowRight size={16} />
           </a>
