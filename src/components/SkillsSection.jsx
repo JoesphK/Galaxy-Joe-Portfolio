@@ -24,6 +24,8 @@ const skills = [
   { name: "Prometheus", level: 70, category: "DevOps tools" },
   { name: "TerraForm", level: 70, category: "DevOps tools" },
   { name: "Ansible", level: 80, category: "DevOps tools" },
+  { name: "Helm", level: 75, category: "DevOps tools" },
+  { name: "Vmware Vsphere", level: 75, category: "DevOps tools" },
 
 ];
 
