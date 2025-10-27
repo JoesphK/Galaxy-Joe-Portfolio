@@ -50,7 +50,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> DevOps engineer</h4>
+                  <h4 className="font-semibold text-lg"> DevOps engineering</h4>
                   <p className="text-muted-foreground">
                     Automating system deployments and enhancing monitoring using
                     modern technologies.
@@ -64,10 +64,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Cloud engineer</h4>
+                  <h4 className="font-semibold text-lg">Cloud engineering</h4>
                   <p className="text-muted-foreground">
-                    Create and deploy infrastructure on cloud environments like AWS,
-                    as well as saving the infrastructure as a code to ensure ease of creation.
+                    Create and deploy infrastructure on cloud environments and write it as code to save it.
+                    
                     
                   </p>
                 </div>
@@ -80,10 +80,10 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Software engineer</h4>
+                  <h4 className="font-semibold text-lg">Agentic AI</h4>
                   <p className="text-muted-foreground">
-                    Capable of creating custom solutions using python and automate
-                    monotonous processes using scripts and tools.
+                    Capable of deploying automated AI agents and MCP models.
+                    
                     
                   </p>
                 </div>

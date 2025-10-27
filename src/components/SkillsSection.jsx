@@ -2,16 +2,9 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Cloud
-  { name: "AWS EKS", level: 95, category: "Cloud" },
-  { name: "AWS CloudWatch", level: 90, category: "Cloud" },
-  { name: "AWS ALB", level: 90, category: "Cloud" },
-  { name: "AWS CloudFront", level: 85, category: "Cloud" },
-  { name: "AWS Global accelerator", level: 90, category: "Cloud" },
-  { name: "AWS Security Hub", level: 80, category: "Cloud" },
-  { name: "AWS RDS", level: 70, category: "Cloud" },
-  { name: "AWS Disaster recovery", level: 95, category: "Cloud" },
-  { name: "AWS Elastic Beanstalk", level: 90, category: "Cloud" },
+  // Cloud providers
+  { name: "AWS", level: 90, category: "Cloud providers" },
+
 
 
   // OS and langs
@@ -21,23 +14,26 @@ const skills = [
   { name: "SQL", level: 65, category: "OS and languages" },
   { name: "Bash & Powershell", level: 80, category: "OS and languages" },
 
-  // Tools
-  { name: "GitHub/ GitActions", level: 90, category: "tools" },
-  { name: "Docker", level: 85, category: "tools" },
-  { name: "ArgoCD", level: 70, category: "tools" },
-  { name: "K8s", level: 75, category: "tools" },
-  { name: "Prometheus", level: 70, category: "tools" },
-  { name: "TerraForm", level: 70, category: "tools" },
+  // DevOps tools
+  { name: "Grafana", level: 70, category: "DevOps tools" },
+  { name: "Zabbix", level: 75, category: "DevOps tools" },
+  { name: "Git/ GitActions", level: 90, category: "DevOps tools" },
+  { name: "Docker", level: 85, category: "DevOps tools" },
+  { name: "ArgoCD", level: 80, category: "DevOps tools" },
+  { name: "K8s", level: 75, category: "DevOps tools" },
+  { name: "Prometheus", level: 70, category: "DevOps tools" },
+  { name: "TerraForm", level: 70, category: "DevOps tools" },
+  { name: "Ansible", level: 80, category: "DevOps tools" },
 
 ];
 
-const categories = ["all", "Cloud", "OS and languages", "tools"];
+const categories = ["All", "Cloud providers", "OS and languages", "DevOps tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => activeCategory === "All" || skill.category === activeCategory
   );
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
