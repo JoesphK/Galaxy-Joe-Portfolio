@@ -16,7 +16,7 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              A junior DevOps engineer with over a year of experience.
+              A DevOps engineer with over a year of experience.
               I specialize in creating cloud infrastructure in AWS and deploying solutions using current day technologies. 
             </p>
 
