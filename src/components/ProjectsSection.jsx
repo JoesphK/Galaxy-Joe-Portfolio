@@ -12,13 +12,13 @@ const projects = [
   },
   {
     id: 2,
-    title: "AWS infrastructure with terraform",
+    title: "Multi cloud infrastructure with terraform",
     description:
-      "Deploy your AWS cloud infrastructure and save it as code. Supports modules like EC2 and ASG.",
+      "Deploy your AWS or Azure cloud infrastructure and save it as code with a wide feature set.",
     image: "/projects/project2.png",
-    tags: ["AWS", "Terraform"],
-    demoUrl: "https://github.com/JoesphK/AWS-infra-by-Terraform",
-    githubUrl: "https://github.com/JoesphK/AWS-infra-by-Terraform",
+    tags: ["AWS", "Terraform", "Azure"],
+    demoUrl: "https://github.com/JoesphK/Cloud-infra-by-Terraform",
+    githubUrl: "https://github.com/JoesphK/Cloud-infra-by-Terraform",
   },
   {
     id: 3,

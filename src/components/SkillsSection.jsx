@@ -4,6 +4,12 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Cloud providers
   { name: "AWS", level: 90, category: "Cloud providers" },
+  { name: "Azure", level: 40, category: "Cloud providers" },
+
+//Agentic tools
+  { name: "CrewAI", level: 75, category: "Agentic tools" },
+  { name: "OpenAI SDK", level: 65, category: "Agentic tools" },
+  { name: "MCP", level: 70, category: "Agentic tools" },
 
 
 
@@ -11,7 +17,7 @@ const skills = [
   { name: "Linux", level: 85, category: "OS and languages" },
   { name: "Windows", level: 90, category: "OS and languages" },
   { name: "Python", level: 90, category: "OS and languages" },
-  { name: "SQL", level: 65, category: "OS and languages" },
+  { name: "SQL", level: 75, category: "OS and languages" },
   { name: "Bash & Powershell", level: 80, category: "OS and languages" },
 
   // DevOps tools
@@ -22,14 +28,14 @@ const skills = [
   { name: "ArgoCD", level: 80, category: "DevOps tools" },
   { name: "K8s", level: 75, category: "DevOps tools" },
   { name: "Prometheus", level: 70, category: "DevOps tools" },
-  { name: "TerraForm", level: 70, category: "DevOps tools" },
+  { name: "TerraForm", level: 80, category: "DevOps tools" },
   { name: "Ansible", level: 80, category: "DevOps tools" },
   { name: "Helm", level: 75, category: "DevOps tools" },
   { name: "Vmware Vsphere", level: 75, category: "DevOps tools" },
 
 ];
 
-const categories = ["All", "Cloud providers", "OS and languages", "DevOps tools"];
+const categories = ["All", "Cloud providers", "OS and languages", "DevOps tools", "Agentic tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("All");
