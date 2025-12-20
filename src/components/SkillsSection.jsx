@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 const skills = [
   // Cloud providers
   { name: "AWS", level: 90, category: "Cloud providers" },
-  { name: "Azure", level: 40, category: "Cloud providers" },
+  { name: "Azure", level: 75, category: "Cloud providers" },
 
 //Agentic tools
   { name: "CrewAI", level: 75, category: "Agentic tools" },
