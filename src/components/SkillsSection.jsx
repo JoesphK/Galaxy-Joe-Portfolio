@@ -21,13 +21,13 @@ const skills = [
   { name: "Bash & Powershell", level: 80, category: "OS and languages" },
 
   // DevOps tools
-  { name: "Grafana", level: 70, category: "DevOps tools" },
+  { name: "Grafana", level: 85, category: "DevOps tools" },
   { name: "Zabbix", level: 75, category: "DevOps tools" },
   { name: "Git/ GitActions", level: 90, category: "DevOps tools" },
   { name: "Docker", level: 85, category: "DevOps tools" },
   { name: "ArgoCD", level: 80, category: "DevOps tools" },
   { name: "K8s", level: 75, category: "DevOps tools" },
-  { name: "Prometheus", level: 70, category: "DevOps tools" },
+  { name: "Prometheus", level: 85, category: "DevOps tools" },
   { name: "TerraForm", level: 80, category: "DevOps tools" },
   { name: "Ansible", level: 80, category: "DevOps tools" },
   { name: "Helm", level: 75, category: "DevOps tools" },
