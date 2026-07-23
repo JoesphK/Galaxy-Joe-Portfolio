@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CertificateSection = () => {
@@ -17,6 +16,20 @@ const CertificateSection = () => {
             {/*
             <a
               href="https://www.credly.com/badges/YOUR_BADGE_ID/public_url"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:text-purple-300 transition-colors duration-300"
+            >
+              View Credential
+            </a>
+            */}
+          </div>
+          <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+            <h3 className="text-xl font-bold mb-2">AWS Certified Solutions Architect - Associate (SAA-C03)</h3>
+            <p className="text-gray-400 mb-4">Amazon Web Services</p>
+            {/*
+            <a
+              href="YOUR_AWS_SAA_CREDENTIAL_URL"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-400 hover:text-purple-300 transition-colors duration-300"
